@@ -1,0 +1,16 @@
+---
+layout: post
+page: single_documentation_page
+title: All Post
+---
+
+<ul>
+  {%assign posts = site.posts | sort: 'number'  %}
+  {% for post in posts %}
+    <li>
+      <a class="hfd_color" href='{{post.url | relative_url }}'>
+        {{post.title}}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
