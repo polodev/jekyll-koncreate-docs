@@ -13,6 +13,7 @@ a {
 	text-decoration: none;
 }
 
+
 h2,
 .col-right a {
 	color: #f7b700;
@@ -168,4 +169,18 @@ ul.special-list2 li span {
 	#wrapper .col-right {
 		margin: 20px;
 	}
+}
+/*
+custom css
+*/
+img {
+	max-width: 100%;
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
 }

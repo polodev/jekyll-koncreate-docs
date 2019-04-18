@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+jQuery(document).ready(function($) {
     $("#wrapper .col-left").mCustomScrollbar({
         theme:"dark"
     });
@@ -26,4 +26,4 @@ jQuery(document).ready(function($){
         // animated top scrolling
         $('body, html').animate({scrollTop: pos}, 2000);
     });
-})(jQuery);
+});
