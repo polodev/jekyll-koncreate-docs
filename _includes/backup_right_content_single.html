@@ -1,15 +1,65 @@
 <div class="col-right">
-	<h1 class="title">{{page.title}}</h1>
-	{%assign posts = site.posts | sort: 'number'  %}
-
-	{% for post in posts %}
 	<section id="requirements">
-		<h2>{{post.number}}| {{post.title}}</h2>
-		{{post.content}}
+		<h1 class="title">{{page.title}}</h1>
+		<h2>1| Requirements</h2>
+		<p>You need at least WordPress version 4.9+ installed for this theme to work properly. It is strongly recommended that you always use the latest stable version of Wordpress to ensure all known bugs and security issues are fixed. Other requirements:</p>
+		<ul>
+			<li>PHP version 5.3 or greater. But for maximum speed, we recommend to use PHP version 7+.</li>
+			<li>MySQL version 5.0.15 or greater.</li>
+		</ul>
 	</section>
-	{% endfor %}
+	<section id="installation">
+		<h2>2| Theme Installation</h2>
+		<p>When you are ready to install a theme, you must first upload the theme files and then activate the theme itself. The theme files can be uploaded in two ways:</p>
+		<ul>
+			<li><b>FTP Upload:</b> Using your FTP client, upload the non-zipped theme folder into the /wp-content/themes/ folder on your server.</li>
+			<li><b>WordPress Upload:</b> Navigate to <b>Appearance -> Themes -> Add New -> Upload</b>. Go to browse, and select the zipped theme folder. Hit "Install Now" and the theme will be uploaded and installed.</li>
+		</ul>
+		<p>Once the theme is uploaded, you need to activate it. Go to <b>Appearance -> Themes</b> and activate your chosen theme.</p>
+		<p>After that you need to install and activate the following pre-packaged plugins:</p>
+		<ol class="plugins">
+			<li>Koncreate Core: <span>Required and must install plugin.</span></li>
+			<li>RT Framework: <span>Required and must install plugin.</span></li>
+			<li>Redux Framework: <span>Required and must install plugin.</span></li>
+			<li>RT Demo Importer: <span>Required if you want to import demo contents. You can deactivate it after demo is imported.</span></li>
+			<li>Elementor: <span>Recommended. Page builder plugin.</span></li>
+			<li>Contact Form 7: <span>Optional. Install if you want to use contact form.</span></li>
+		</ol>
+		<p><b>N.B:</b> All plugins must be installed and activated if you want your site to look exactly like demo.</p>
+		<p>To install these plugins, navigate to <b>Appearance -> Install Plugins</b> and start installation.</p>
+		<p><img alt="" src="{{ 'assets/images/1.png' | relative_url }}"></p>
+	</section>
+	<section id="demo">
+		<h2>3| Importing Demo contents</h2>
+		<p>Want to build your site like the demo? You can do it by only one click!</p>
+		<p style="color:red;"><i><b>** Note: Before proceeding, please remember that when you are done with the demo import, all existing settings and contents will be removed and replaced by the demo contents. So it is highly recommended that you should only do this in fresh site. **</b></i></p>
+		<p>First please make sure that Koncreate Parent Theme is activated on your site.</p>
+		<p>From Admin menu, navigate to <b>Tools -> Demo Content Install</b>. Or alternatively,  navigate to <b>Plugins -> RT Demo Importer -> Install Demo Contents</b>.</p>
+		<p><img alt="" src="{{ 'assets/images/40.png' | relative_url }}"></p>
+		<p class="mt30">In this page, Click on the <b>Install</b> button for installing the demo.</p>
+		<p><img alt="" src="{{ 'assets/images/2.jpg' | relative_url }}"></p>
+		<p class="mt30">It will take some time for importing the demo contents. <i>Please note: Some images are replaced with a placeholder image because of licensing.</i></p>
+		<p>After importing demo data, please update your permalink. To update permalink, navigate to <b>Settings -> Permalink</b> and then click on <b>Save Settings</b> button.</p>
+		<p><img alt="" src="{{ 'assets/images/r3.jpg' | relative_url }}"></p>
+		<p class="mt30">If you face any issue, check the Troubleshooting section from <a href="#t-demo">here</a>.</p>
+	</section>
 
-
+	<section id="demo-manual">
+		<h2>3.2| Manual Import</h2>
+		<p>We have provided some sample contents inside "sample-data" directory which comes with your theme package. You have to import those contents.</p>
+		<ul>
+			<li>
+				<b>Importing Contents</b>: From Admin menu, navigate to <b><i>Tools->Import</i></b>. From there select the "WordPress" and then run the importer(It will ask you to install the importer before if this is your first time). In the next step when file uploading option appears, select the "contents.xml" file from sample-data and start uploading. In next step select the checkbox saying "Download and import file attachments" and click on "Submit". Then it'll start uploading contents eg. pages, posts etc.
+				<p class="mt20"><img src="{{ 'assets/images/78.jpg' | relative_url }}"></p>
+				<p class="mt20"><img src="{{ 'assets/images/80.jpg' | relative_url }}"></p>
+				<p class="mt20"><img src="{{ 'assets/images/81.jpg' | relative_url }}"></p>
+			</li>
+			<li><b>Importing Widgets</b>: You can import widgets using plugin <a href="https://wordpress.org/plugins/widget-importer-exporter/">Widget Importer &amp; Exporter</a>. After installing this plugin, navigate to <b><i>Tools->Widget Importer &amp; Exporter</i></b>. In the next step when file uploading option appears, select the "widgets.wie" file from sample-data and start importing.<p class="mt20"><img src="{{ 'assets/images/82.jpg' | relative_url }}"></p></li>
+			<li><b>Importing Sliders</b>: From Admin menu, navigate to <b><i>LayerSlider WP</i></b>, then click on "Import Sliders" option. In the next step when file uploading option appears, select the "slider.zip" file from sample-data and start importing.<p class="mt20"><img src="{{ 'assets/images/83.jpg' | relative_url }}"></p><p class="mt20"><img src="{{ 'assets/images/84.jpg' | relative_url }}"></p></li>
+			<li><b>Importing options</b>: First open the file "options.json" in any text editor and copy the whole contents. Now from Admin menu, navigate to <b><i>Appearance -> Koncreate Options</i></b>, then go to <b><i>import/Export</i></b> tab. From there click on "Import from file" option. A textbox will appear, paste the copied contents on that textbox and click on "Import" button.<p class="mt20"><img src="{{ 'assets/images/2.jpg' | relative_url }}"></p></li>
+			<li><b>More Configurations</b>: This theme comes with many pre-packaged plugins eg. Contact Form 7, Breadcrumb NavXT, AddToAny Share Buttons etc . You should also configuire these plugin settings too as per your needs.</li>
+		</ul>
+	</section>
 
 
 	<section id="features"></section>
