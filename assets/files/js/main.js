@@ -24,6 +24,6 @@ jQuery(document).ready(function($) {
         var pos = $(id).offset().top;
 
         // animated top scrolling
-        $('body, html').animate({scrollTop: pos}, 2000);
+        $('body, html').stop().animate({scrollTop: pos}, 2000);
     });
 });
