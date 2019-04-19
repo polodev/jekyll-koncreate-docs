@@ -219,3 +219,21 @@ img {
 .text-danger {
 	color: red;
 }
+#wrapper .col-left ul li ul {
+	margin-left: 10px;
+	border-left: 2px solid #ddd;
+}
+#wrapper .col-left ul li ul li {
+	padding-left: 10px;
+	position: relative;
+}
+#wrapper .col-left ul li ul li:before {
+	content: '';
+	background-color: #ddd;
+	height: 2px;
+	width: 10px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+
+}

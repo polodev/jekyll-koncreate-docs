@@ -11,11 +11,9 @@
 				<li>
 					<a href="#{{post.unique_id}}">{{post.number}}. {{post.title}}</a>
 					{% if post.has_sub %}
-						<ul>
-							<li>
-								{% include toc.html html=post.content %}
-							</li>
-						</ul>
+					<ul>
+						{% include sidebartoc.html html=post.content %}
+					</ul>
 					{% endif %}
 				</li>
 			{% endfor %}
