@@ -8,7 +8,16 @@
 		<ul>
 			{%assign posts = site.posts | sort: 'number'  %}
 			{% for post in posts %}
-				<li><a href="#{{post.unique_id}}">{{post.number}}. {{post.title}}</a></li>
+				<li>
+					<a href="#{{post.unique_id}}">{{post.number}}. {{post.title}}</a>
+					{% if post.has_sub %}
+						<ul>
+							<li>
+								{% include toc.html html=post.content %}
+							</li>
+						</ul>
+					{% endif %}
+				</li>
 			{% endfor %}
 			<li><a href="#requirements">Requirements</a></li>
 			<li><a href="#demo">Importing Demo contents</a></li>

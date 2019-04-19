@@ -28,6 +28,12 @@ github_username:  jekyll
 markdown: kramdown
 plugins:
   - jekyll-feed
+# - jekyll-toc
+
+
+toc:
+  min_level: 3 # default: 1
+  max_level: 3 # default: 6
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
