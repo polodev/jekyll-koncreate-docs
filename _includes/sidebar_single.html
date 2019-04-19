@@ -5,25 +5,29 @@
 		<div>
 			<input class="form-control" placeholder="Search here..." type="text" id="single-search-box">
 		</div>
-		<ul>
-			{%assign posts = site.posts | sort: 'number'  %}
-			{% for post in posts %}
-				<li>
-					<a href="#{{post.unique_id}}">{{post.number}}. {{post.title}}</a>
-					{% if post.has_sub %}
-					<ul>
-						{% include sidebartoc.html html=post.content %}
-					</ul>
-					{% endif %}
-				</li>
-			{% endfor %}
-			<li><a href="#requirements">Requirements</a></li>
-			<li><a href="#demo">Importing Demo contents</a></li>
-				<ul>
-					<li><a href="#demo">Automatic Import</a></li>
-					<li><a href="#demo-manual">Manual Import</a></li>
-				</ul>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
+    <div id="search-result" class="d-none">
+      <ul class="listed">
+        <li><a href="#">Dhaka</a></li>
+        <li><a href="#">Comilla</a></li>
+        <li><a href="#">Borisal</a></li>
+      </ul>
+    </div>
+    <div class="navigation">
+      <ul>
+        {%assign posts = site.posts | sort: 'number'  %}
+        {% for post in posts %}
+          <li>
+            <a href="#{{post.unique_id}}">{{post.number}}. {{post.title}}</a>
+            {% if post.has_sub %}
+            <ul>
+              {% include sidebartoc.html html=post.content %}
+            </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
 	</div>
+
+
 </div>

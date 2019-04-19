@@ -89,7 +89,7 @@ section pre {
 	background: #f8f8f8;
 	width: 96%;
 	text-align: left;
-	margin: 20px 0; 
+	margin: 20px 0;
 	padding: 0px;
 }
 code {
@@ -106,7 +106,7 @@ mark {
 }
 #wrapper {
 	width: 100%;
-	margin: auto auto;	
+	margin: auto auto;
 }
 #wrapper .col-left {
 	background-color: #393939;
@@ -128,7 +128,7 @@ mark {
 	padding-left: 0;
 }
 #wrapper .col-left ul li {
-	margin: 0px; 
+	margin: 0px;
 }
 #wrapper .col-left ul li a {
 	color: #fff;
@@ -238,6 +238,23 @@ img {
 
 }
 code {
-	display: inline-flex;
-	flex-wrap: wrap;
+}
+
+#wrapper .col-left #search-result ul.listed {
+  list-style-type: decimal;
+  margin-left: 27px;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+#search-result {
+  margin-top: 10px;
+}
+
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
 }

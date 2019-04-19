@@ -20,7 +20,7 @@ _Step 2:_** From this page, click on `Mail` tab. Here you should set your own em
 
 <img alt="" src="{{ 'assets/images/58.jpg' | relative_url }}">
 
-_Step 3:_**   Please submit some dummy forms from Contact page to make sure that it's working properly.    
+_Step 3:_**   Please submit some dummy forms from Contact page to make sure that it's working properly.
 
 
 ### 18.2| Translating Theme
@@ -43,7 +43,8 @@ Here's a quick video tutorial about how to use **Loco Translate**:
 
 Occationally we provide updates which includes new features and bugfixes. Updating WordPress theme is standard WordPress functionality. There are few ways to update WordPress theme. You can follow any of the methods described below:
 
-_``**Note: Before updating, make sure to keep a backup of your website to be in safe side. ** ``_
+**Note: Before updating, make sure to keep a backup of your website to be in safe side.**
+{: .text-danger}
 
 #### Method 1: Automatic Update by Using Envato Market Plugin
 
