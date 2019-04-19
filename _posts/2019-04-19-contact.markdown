@@ -1,0 +1,12 @@
+---
+title: Contact
+layout: post
+id: contact
+has_sub: false
+number: 20
+---
+
+If you face any issue, please contact at <a href="mailto:support@radiustheme.com">support@radiustheme.com</a>
+
+Thank you for purchasing our theme.
+{: .mb50}
