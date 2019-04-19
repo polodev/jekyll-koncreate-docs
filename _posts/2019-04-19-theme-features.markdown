@@ -1,7 +1,7 @@
 ---
 title: Theme Features
 layout: post
-id: theme-features
+unique_id: theme-features
 has_sub: true
 number: 4
 ---

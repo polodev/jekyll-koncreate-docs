@@ -1,7 +1,7 @@
 ---
 title: Importing Demo contents
 layout: post
-id: demo
+unique_id: demo
 has_sub: false
 number: 3
 toc: true

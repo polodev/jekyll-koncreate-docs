@@ -1,7 +1,7 @@
 ---
 title: Layout Settings
 layout: post
-id: layout-settings
+unique_id: layout-settings
 has_sub: false
 number: 5
 ---

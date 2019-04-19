@@ -1,7 +1,7 @@
 ---
 title: Error Page Settings
 layout: post
-id: requirements
+unique_id: requirements
 has_sub: false
 number: 9
 ---

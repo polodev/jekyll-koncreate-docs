@@ -1,7 +1,7 @@
 ---
 title: Testimonial
 layout: post
-id: testimonial
+unique_id: testimonial
 has_sub: false
 number: 14
 ---

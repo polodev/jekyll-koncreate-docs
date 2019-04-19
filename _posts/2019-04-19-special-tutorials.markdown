@@ -1,7 +1,7 @@
 ---
 title: Special Tutorials
 layout: post
-id: special-tutorial
+unique_id: special-tutorial
 has_sub: true
 number: 18
 ---

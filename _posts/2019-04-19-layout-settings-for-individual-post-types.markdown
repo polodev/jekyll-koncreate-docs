@@ -1,7 +1,7 @@
 ---
 title: Layout Settings for Individual Post Types
 layout: post
-id: layout-settings-for-individual-post-types
+unique_id: layout-settings-for-individual-post-types
 has_sub: false
 number: 6
 ---

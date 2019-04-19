@@ -1,7 +1,7 @@
 ---
 title: Demo Content installation failed
 layout: post
-id: demo-content-installation-failed
+unique_id: demo-content-installation-failed
 has_sub: false
 number: 19
 ---

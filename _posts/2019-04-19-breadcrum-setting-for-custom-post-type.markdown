@@ -1,7 +1,7 @@
 ---
 title: Breadcrum Setting for custom post type
 layout: post
-id: breadcrum-setting-for-custom-post-type
+unique_id: breadcrum-setting-for-custom-post-type
 has_sub: false
 number: 10
 ---

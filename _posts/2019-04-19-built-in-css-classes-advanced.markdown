@@ -1,7 +1,7 @@
 ---
 title: Built-in CSS Classes (Advanced)
 layout: post
-id: built-in-css-classes-advanced
+unique_id: built-in-css-classes-advanced
 has_sub: false
 number: 16
 ---

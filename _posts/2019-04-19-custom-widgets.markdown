@@ -1,7 +1,7 @@
 ---
 title: Custom Widgets
 layout: post
-id: custom-widgets
+unique_id: custom-widgets
 has_sub: false
 number: 17
 ---

@@ -6,58 +6,16 @@
 			<input class="form-control" placeholder="Search here..." type="text" id="single-search-box">
 		</div>
 		<ul>
+			{%assign posts = site.posts | sort: 'number'  %}
+			{% for post in posts %}
+				<li><a href="#{{post.unique_id}}">{{post.number}}. {{post.title}}</a></li>
+			{% endfor %}
 			<li><a href="#requirements">Requirements</a></li>
-			<li><a href="#installation">Theme Installation</a></li>
 			<li><a href="#demo">Importing Demo contents</a></li>
 				<ul>
 					<li><a href="#demo">Automatic Import</a></li>
 					<li><a href="#demo-manual">Manual Import</a></li>
 				</ul>
-			<li>
-				<a href="#features">Theme Features</a>
-				<ul>
-					<li><a href="#colors">Sitewise Colors</a></li>
-					<li><a href="#logo">Logo</a></li>
-					<li><a href="#preloader">Preloader</a></li>
-					<li><a href="#toparrow">Back to Top Arrow</a></li>
-					<li><a href="#header">Header and Top Bar</a></li>
-					<li><a href="#menu">Menu</a></li>
-					<li><a href="#megamenu">Multi Column Menu</a></li>
-					
-					<li><a href="#footer">Footer</a></li>
-					<li><a href="#typo">Typography</a></li>
-					<!-- <li><a href="#socials">Contacts & Socials</a> -->
-				</ul>
-			</li>
-			<li><a href="#layouts">Layout Settings</a></li>
-			<li><a href="#post-single">Layout Settings for Individual Post Types</a></li>
-			<li><a href="#blog">Blog Settings</a></li>
-			<li><a href="#post">Post Settings</a></li>
-			<li><a href="#error">Error Page Settings</a></li>
-			<li><a href="#cpt">Breadcrum Setting for custom post type</a></li>
-			<li><a href="#doctor">Doctor</a></li>
-			<li><a href="#departments">Departments</a></li>
-			<li><a href="#gallery">Gallery</a></li>
-			<li><a href="#testimonial">Testimonial</a></li>
-			<li><a href="#vc-elements"> Elementor elements</a></li>
-			<li><a href="#css-class">Built-in CSS Classes (Advanced)</a></li>
-			<li><a href="#widgets">Custom Widgets</a></li>
-			<li>
-				<a href="#special">Special Tutorials</a>
-				<ul>
-					<li><a href="#s-contact">Setting up Contact Form</a></li>
-					<!-- <li><a href="#onepage">Creating One Page Navigation</a></li> -->
-					<li><a href="#translate">Translating Theme</a></li>
-					<li><a href="#update">Updating Theme</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#trouble">Troubleshooting</a>
-				<ul>
-					<li><a href="#t-demo">Demo Content installation failed</a></li>
-					<li><a href="#t-error">404 Error in all pages</a></li>
-				</ul>
-			</li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</div>

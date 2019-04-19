@@ -3,7 +3,7 @@
 	{%assign posts = site.posts | sort: 'number'  %}
 
 	{% for post in posts %}
-	<section id="requirements">
+	<section id="{{post.unique_id}}">
 		<h2>{{post.number}}| {{post.title}}</h2>
 		{{post.content}}
 	</section>
