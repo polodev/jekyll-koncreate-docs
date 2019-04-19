@@ -237,3 +237,7 @@ img {
 	top: 50%;
 
 }
+code {
+	display: inline-flex;
+	flex-wrap: wrap;
+}

@@ -7,11 +7,9 @@ number: 3
 toc: true
 ---
 Want to build your site like the demo? You can do it by only one click!
-<p style="color:red;">
-	<b>
-		** Note: Before proceeding, please remember that when you are done with the demo import, all existing settings and contents will be removed and replaced by the demo contents. So it is highly recommended that you should only do this in fresh site. **
-	</b>
-</p>  
+
+** Note: Before proceeding, please remember that when you are done with the demo import, all existing settings and contents will be removed and replaced by the demo contents. So it is highly recommended that you should only do this in fresh site.**
+{: .text-danger}
 
 ### 3.1 | Auto Import
 
