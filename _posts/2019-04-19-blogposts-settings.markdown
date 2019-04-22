@@ -1,17 +1,21 @@
 ---
-title: Blog/posts Settings
+title: Blog Settings
 layout: post
-unique_id: blogposts-settings
+unique_id: blog-settings
 has_sub: false
 number: 7
 ---
 
-Navigate to `Appearance > Theme Options`. Then go to `Post Settings` tab. From here you can change Blog/Archive related settings.
+Navigate to `Appearance > Theme Options`. Then go to `Blog Settings` tab. From here you can change Blog/Archive related settings.
 
-<img alt="" src="{{ 'assets/images/62.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/7/7.1.png' | relative_url }}">
 
-Also you can upload an Inner Page Banner Image`Appearance > Theme Options`. Then go to `General` tab. It'll look like this:
 
-<img alt="" src="{{ 'assets/images/no-image-preview.jpg' | relative_url }}">
+Here you can on off viewing following item
 
-After changing the settings, Click on `Save Changes` button.
+* Post date
+* Post author
+* Post categories
+* Comment number
+
+You can change `Read more` text as well from these settings.
