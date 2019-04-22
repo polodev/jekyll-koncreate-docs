@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
     var pos = $(id).offset().top;
 
     // animated top scrolling
-    $('body, html').stop().animate({scrollTop: pos}, 1200);
+    $('body, html').stop().animate({scrollTop: pos}, 1000);
   });
 
   var miniSearch = {

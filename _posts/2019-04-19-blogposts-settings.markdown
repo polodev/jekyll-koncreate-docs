@@ -1,7 +1,7 @@
 ---
 title: Blog Settings
 layout: post
-unique_id: blog-settings
+page_id: blog-settings
 has_sub: false
 number: 7
 ---

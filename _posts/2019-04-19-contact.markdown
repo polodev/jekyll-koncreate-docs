@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: post
-unique_id: contact
+page_id: contact
 has_sub: false
 number: 20
 ---

@@ -17,7 +17,7 @@
         {%assign posts = site.posts | sort: 'number'  %}
         {% for post in posts %}
           <li>
-            <a href="#{{post.unique_id}}">{{post.number}}. {{post.title}}</a>
+            <a href="#{{post.page_id}}">{{post.number}}. {{post.title}}</a>
             {% if post.has_sub %}
             <ul>
               {% include sidebartoc.html html=post.content %}

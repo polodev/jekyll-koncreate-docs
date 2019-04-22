@@ -1,7 +1,7 @@
 ---
 title: Theme Features
 layout: post
-unique_id: theme-features
+page_id: theme-features
 has_sub: true
 number: 4
 ---
@@ -21,7 +21,7 @@ After changing the settings, Click on `Save Changes` button.
 
 From Admin menu, navigate to `Appearance > Theme Options`. Then go to `General` tab.
 
-You need to  choose 	2 type of logo. One for normal layout(main logo) and another for transparent layout(
+You need to  choose   2 type of logo. One for normal layout(main logo) and another for transparent layout(
 
 <img alt="" src="{{ 'assets/images/4/4.2.png' | relative_url }}">
 

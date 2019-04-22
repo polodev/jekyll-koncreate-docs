@@ -1,7 +1,7 @@
 ---
 title: Testimonial
 layout: post
-unique_id: testimonial
+page_id: testimonial
 has_sub: false
 number: 14
 ---

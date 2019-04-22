@@ -1,7 +1,7 @@
 ---
 title: Theme Installation
 layout: post
-unique_id: installation
+page_id: installation
 has_sub: false
 number: 2
 ---
