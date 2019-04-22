@@ -8,12 +8,12 @@ number: 4
 
 ### 4.1| Sitewise Colors
 
-From Admin menu, navigate to `Appearance > Theme Options`. Then go to `Colors` tab.    
+From Admin menu, navigate to `Appearance > Theme Options`. Then go to `Colors` tab.
 
 
 Choose your preferred primary and secondary color from the color palette.
 
-<img alt="" src="{{ 'assets/images/4.1.png' | relative_url }}">
+<img alt="" src="{{ 'assets/images/4/4.1.png' | relative_url }}">
 
 After changing the settings, Click on `Save Changes` button.
 
@@ -23,7 +23,7 @@ From Admin menu, navigate to `Appearance > Theme Options`. Then go to `General` 
 
 You need to  choose 	2 type of logo. One for normal layout(main logo) and another for transparent layout(
 
-<img alt="" src="{{ 'assets/images/4.2.png' | relative_url }}">
+<img alt="" src="{{ 'assets/images/4/4.2.png' | relative_url }}">
 
 After changing the settings, Click on `Save Changes` button.
 
@@ -33,7 +33,7 @@ From Admin menu, navigate to `Appearance > Theme Options`. Then go to `General` 
 
 Here you can find the option for enabling/disabling "Preloader" option. Also you can upload your custom preloader image. When uploading image, make sure it's a transparent GIF image.
 
-<img alt="" src="{{ 'assets/images/4.3.png' | relative_url }}">
+<img alt="" src="{{ 'assets/images/4/4.3.png' | relative_url }}">
 
 After changing the settings, Click on `Save Changes` button.
 
@@ -43,7 +43,7 @@ From Admin menu, navigate to `Appearance > Theme Options`. Then go to `General` 
 
 Here you can find the option for enabling/disabling "Back to Top Arrow" option. Choose your preferred option
 
-<img alt="" src="{{ 'assets/images/4.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/4/4.4.png' | relative_url }}">
 
 After changing the settings, Click on `Save Changes` button.
 
@@ -54,17 +54,25 @@ To change the Header related settings, please go to `Appearance > Theme Options`
 * There are total 5 Header Layouts. You can choose your preferred layout combinations from here. You can change this settings from any individual pages too.
 * You have options to enable/disable Sticky Header.
 
-<img alt="" src="{{ 'assets/images/7.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/4/4.5.png' | relative_url }}">
 
 After changing the settings, Click on `Save Changes` button.
 
 ### 4.6| Menu
 
-To customize the menu settings, navigate to `Appearance > Theme Options`. Then go to `Main Menu` tab.
+You can customize menu typography (font related settings) and color from theme options.
+To customize menu typography navigate to `Appearance > Theme Options`. Then go to `Typography` tab.
+You can set menu, submenu, mobile fonts.
 
-From here you can change the menu display behaviour. You can set menu fonts and Mobile menu Width as well.
+<img alt="" src="{{ 'assets/images/4/4.6.png' | relative_url }}">
 
-<img alt="" src="{{ 'assets/images/6.jpg' | relative_url }}">
+To customize menu color navigate to `Appearance > Theme Options`. Then go to `Colors` tab. From whre you can set color for menu, submenu, transparent menu.
+
+<img alt="" src="{{ 'assets/images/4/4.6.2.png' | relative_url }}">
+
+To change screen width for responsive menu navigate to `Appearance > Theme Options`. Then go to `Headers` tab. From whre you can set responsive menu viewport width.
+
+<img alt="" src="{{ 'assets/images/4/4.6.3.png' | relative_url }}">
 
 After changing the settings, Click on `Save Changes` button.
 
@@ -74,13 +82,13 @@ Multi column menu looks like this:
 
 To make any menu item multi column, you have to add some specific classes in the parent menu item. Here's an example:
 
-<img alt="" src="{{ 'assets/images/55.png' | relative_url }}">
+<img alt="" src="{{ 'assets/images/4/4.7.png' | relative_url }}">
 
 Here I used css class **mega-menu** which turns the submenu items into multi column. Also i used another class **hide-header** which hides the title `Column 1` and `Column 2` inside menu.
 
-NB: If you can't see the field `CSS Classes`, you have to enable it first. To do this, go to the top and follow this screenshot below: 
+NB: If you can't see the field `CSS Classes`, you have to enable it first. To do this, go to the top and follow this screenshot below:
 
-<img alt="" src="{{ 'assets/images/56.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/4/4.7.2.jpg' | relative_url }}">
 
 ### 4.9| Footer
 
