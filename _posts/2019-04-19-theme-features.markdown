@@ -90,23 +90,29 @@ NB: If you can't see the field `CSS Classes`, you have to enable it first. To do
 
 <img alt="" src="{{ 'assets/images/4/4.7.2.jpg' | relative_url }}">
 
-### 4.9| Footer
+### 4.8| Footer
+You can change footer copyright text and toggle copyright option from footer settings. To change footer copyright info
+navigate to `Appearance > Theme Options`. Then go to `Footer` tab.
 
-To change the footer settings, navigate to `Appearance > Theme Options`. Then go to `Footer` tab. It looks like this:
+<img alt="koncreate theme footer change" src="{{ 'assets/images/4/4.8.1.png' | relative_url }}">
 
-<img alt="" src="{{ 'assets/images/9.jpg' | relative_url }}">
+After changing the settings, Click on `Save Changes` button.
+
+To change footer background color, text color, Link color, Hover color navigate to `Appearance > Theme Options`. Then go to `Colors` tab.
+
+<img alt="koncreate theme footer colors option" src="{{ 'assets/images/4/4.8.2.png' | relative_url }}">
 
 After changing the settings, Click on `Save Changes` button.
 
 To set up footer widgets, navigate to `Appearance > Widgets`. Here you can find available footer widget areas.
 
-<img alt="" src="{{ 'assets/images/widget-image.jpg' | relative_url }}">
+<img alt="koncreate theme footer widget" src="{{ 'assets/images/4/4.8.3.png' | relative_url }}">
 
-### 4.10| Typography
+### 4.9| Typography
 
 You can change the typography of Body and Headers. To do this, go to `Appearance > Theme Options`. Then go to `Typography` tab.
 
-<img alt="" src="{{ 'assets/images/11.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/4/4.9.png' | relative_url }}">
 
 After changing the Typography settings, Click on `Save Changes` button.
 
