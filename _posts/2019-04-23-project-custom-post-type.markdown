@@ -8,7 +8,7 @@ number: 12
 
 You can add a new `Project` from `Projects` menu. For each `Project` you'll see the following settings:
 
-<img alt="" src="{{ 'assets/images/cpt/project.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/cpt/project.jpg' | relative_url }}">
 
 Some notable settings for each projects
 
@@ -20,7 +20,7 @@ Some notable settings for each projects
 For displaying project in other page using Elementor, we have created Elementor elements for you.
 From Elementor, Go to `RadiusTheme Elements` section and choose `Project Gallery` then choose your desired layout. You can alternatively search on Elementor search box with keyword `project`.
 
-<img alt="" src="{{ 'assets/images/cpt/project-elementor.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/cpt/project-elementor.jpg' | relative_url }}">
 
 
 

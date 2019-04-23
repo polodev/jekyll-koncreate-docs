@@ -13,4 +13,4 @@ This is a hosting issue. In most hostings demo installation will work fine. But 
 ### 20.2| 404 Error in all pages
 If you face this type of issue, please update your permalink. To update permalink, navigate to `Settings > Permalink` and then click on `Save Settings` button.
 
-<img alt="" src="{{ 'assets/images/others/permalink-save.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/others/permalink-save.jpg' | relative_url }}">

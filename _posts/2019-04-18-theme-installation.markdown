@@ -25,6 +25,6 @@ After that you need to install and activate the following pre-packaged plugins:
 
 To install these plugins, navigate to `Appearance -> Install Plugins` and start installation.
 
-<img alt="" src="{{ 'assets/images/theme-installation/ti.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/theme-installation/ti.jpg' | relative_url }}">
 
 

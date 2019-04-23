@@ -10,7 +10,7 @@ From here you can set default layouts for pages, blog, posts etc. You can find t
 
 This settings is similar for all submenus under "Layout Defaults", so for convenience i'll just describe for one item (<b>Pages</b>).
 
-<img alt="" src="{{ 'assets/images/5/5.1.png' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/layout-settings/ls-1.jpg' | relative_url }}">
 
 **Layout:** You can choose various layout types for pages eg. Left Sidebar, Right Sidebar, Full Width.
 
@@ -26,5 +26,5 @@ This settings is similar for all submenus under "Layout Defaults", so for conven
 
 **Banner Background Color/Image:** You can select the banner background color or image from here.
 
-<img alt="" src="{{ 'assets/images/5/5.2.png' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/layout-settings/ls-2.jpg' | relative_url }}">
 

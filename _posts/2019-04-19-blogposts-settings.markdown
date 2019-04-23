@@ -8,7 +8,7 @@ number: 7
 
 Navigate to `Appearance > Theme Options`. Then go to `Blog Settings` tab. From here you can change Blog/Archive related settings.
 
-<img alt="" src="{{ 'assets/images/7/7.1.png' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/blog-settings/bs.jpg' | relative_url }}">
 
 
 Here you can on off viewing following item

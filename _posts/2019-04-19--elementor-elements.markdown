@@ -8,7 +8,7 @@ number: 16
 
 We have created several  Elementor elements for you. You can find them from `RADIUSTHEME ELEMENTS` tab in the  Elementor elements
 
-<img alt="" src="{{ 'assets/images/elementor/elementor-1.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/elementor/elementor-1.jpg' | relative_url }}">
 
 Some notable elements are
 

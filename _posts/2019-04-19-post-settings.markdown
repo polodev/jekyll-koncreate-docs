@@ -20,7 +20,7 @@ You can toggle view for
 
 You can select list of social icon you want to display beneath each blog post.
 
-<img alt="" src="{{ 'assets/images/8/8.1.png' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/post-settings/ps.png' | relative_url }}">
 
 After changing the settings, Click on `Save Changes` button.
 

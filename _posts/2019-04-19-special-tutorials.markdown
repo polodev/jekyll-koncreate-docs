@@ -14,11 +14,11 @@ If you don't want to go through all the troubles to check their documentation an
 
 _Step 1:_** Navigate to `Contact`, and then click on `Contact form 1` link.
 
-<img alt="contact form 7" src="{{ 'assets/images/advance/contact-form-1.jpg' | relative_url }}">
+<img alt="contact form 7" src="{{ 'assets/images/koncreate_theme/advance/contact-form-1.jpg' | relative_url }}">
 
 _Step 2:_** From this page, click on `Mail` tab. Here you should set your own email address where you want to receive user submitted forms. Then click on save button.
 
-<img alt="" src="{{ 'assets/images/advance/contact-form-2.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncreate_theme/advance/contact-form-2.jpg' | relative_url }}">
 
 _Step 3:_**   Please submit some dummy forms from Contact page to make sure that it's working properly.
 
