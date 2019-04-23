@@ -51,5 +51,15 @@ jQuery(document).ready(function($) {
 
   }
 
+  function setHrefAsTitle() {
+    $('img').each(function(index, el) {
+      var src = $(el).attr('src');
+      $(el).attr('title', src);
+    });
+  }
+  setHrefAsTitle();
+
+
+
 
 });

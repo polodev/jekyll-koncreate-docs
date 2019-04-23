@@ -3,7 +3,7 @@ title: Contact
 layout: post
 page_id: contact
 has_sub: false
-number: 20
+number: 21
 ---
 
 If you face any issue, please contact at <a href="mailto:support@radiustheme.com">support@radiustheme.com</a>
