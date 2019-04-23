@@ -16,10 +16,12 @@ a {
 
 h2,
 .col-right a {
+  color: #002147;
 	color: #f7b700;
 }
 h1.title {
 	background-color: #f7b700;
+  background-color: #002147;
 }
 h1.title {
 	text-align: center;
@@ -46,6 +48,7 @@ h2 {
 h3 {
 	font-size: 18px;
 	color: #f7b700;
+  color: #002147;
 }
 h4 {
 	font-size: 16px;
