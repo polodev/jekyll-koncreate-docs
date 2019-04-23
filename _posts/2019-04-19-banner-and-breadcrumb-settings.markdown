@@ -1,7 +1,7 @@
 ---
 title: Banner and Breadcrumb Setting
 layout: post
-page_id: banner-and-breadcrumb
+page_id: banner-and-breadcrumb-settings
 has_sub: false
 number: 10
 ---

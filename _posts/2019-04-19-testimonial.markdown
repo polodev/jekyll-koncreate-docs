@@ -1,9 +1,9 @@
 ---
-title: Testimonial
+title: Testimonial (Custom Post type)
 layout: post
-page_id: testimonial
+page_id: testimonial-custom-post-type
 has_sub: false
-number: 14
+number: 15
 ---
 
 You can add testimonials from `Testimonials` Elementor. For each testimonial you'll see the following settings:

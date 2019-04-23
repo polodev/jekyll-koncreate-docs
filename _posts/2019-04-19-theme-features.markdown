@@ -116,3 +116,20 @@ You can change the typography of Body and Headers. To do this, go to `Appearance
 
 After changing the Typography settings, Click on `Save Changes` button.
 
+### 4.10| Contact & Socials
+
+You can set up your contact and social info which are displayed in Top Bar and Footer. To do this, navigate to `Appearance -> Theme Options`. Then go to Contact & Socials tab.
+
+<img alt="" src="{{ 'assets/images/4/4.10.jpg' | relative_url }}">
+
+After changing the settings, Click on Save Changes button.
+
+### 4.11| Custom Sidebar
+You can create as many as Custom Sidebar as you want. Also you can replace the Default Sidebar with your Custom Sidebar easily in any page. To create a new custom sidebar, navigate to `Appearance -> Widgets`. Here you'll see the option for creating new sidebar.
+
+<img alt="" src="{{ 'assets/images/4/4.11.jpg' | relative_url }}">
+
+
+
+
+After your custom sidebar has been created, you can place this sidebar in any individual page. To do that, you have to choose this custom sidebar in Layout Settings option.
