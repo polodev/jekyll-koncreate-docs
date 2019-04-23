@@ -6,7 +6,7 @@ has_sub: false
 number: 12
 ---
 
-You can add a new Project from `Projects` menu. For each `Project` you'll see the following settings:
+You can add a new `Project` from `Projects` menu. For each `Project` you'll see the following settings:
 
 <img alt="" src="{{ 'assets/images/cpt/project.jpg' | relative_url }}">
 
