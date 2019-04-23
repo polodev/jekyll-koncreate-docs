@@ -21,10 +21,10 @@ After that you need to install and activate the following pre-packaged plugins:
 * **Elementor:** Recommended. Page builder plugin.
 * **Contact Form 7:** Optional. Install if you want to use contact form.
 
-**N.B:** All plugins must be installed and activated if you want your site to look exactly like demo.   
+**N.B:** All plugins must be installed and activated if you want your site to look exactly like demo.
 
 To install these plugins, navigate to `Appearance -> Install Plugins` and start installation.
 
-<img alt="" src="{{ 'assets/images/1.png' | relative_url }}">
+<img alt="" src="{{ 'assets/images/theme-installation/ti.jpg' | relative_url }}">
 
 
