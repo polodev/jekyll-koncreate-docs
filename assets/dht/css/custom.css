@@ -11,11 +11,13 @@ img {
 h2 {
   color: salmon;
   font-size: 28px;
+  font-weight: bold;
 }
 
 h3 {
   color: teal;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .sub-title {
