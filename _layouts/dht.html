@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include dht/header_single.html %}
+<body>
+    <div id="wrapper">
+
+        <div class="container">
+
+            <section id="top" class="section docs-heading">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="big-title text-center">
+                            <h1>{{page.theme_name}}</h1>
+                            <p class="lead">{{page.theme_sub}}</p>
+                        </div>
+                        <!-- end title -->
+                    </div>
+                    <!-- end 12 -->
+                </div>
+                <!-- end row -->
+
+                <hr>
+
+            </section>
+            <!-- end section -->
+
+            <div class="row">
+              {% include dht/sidebar_single.html %}
+              {% include dht/right_content_single.html %}
+            </div>
+
+        </div>
+        <!-- // end container -->
+
+    </div>
+
+{% include dht/footer_single.html %}
+<body>
+</body>
+</html>
