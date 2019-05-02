@@ -15,21 +15,21 @@ Want to build your site like the demo? You can do it by only one click!
 
 ### 3.1 | Auto Import
 
-First please make sure that Koncreate Parent Theme is activated on your site.
+First please make sure that Koncrete Parent Theme is activated on your site.
 
 From Admin menu, navigate to `Tools > Demo Content Install`. Or alternatively,  navigate to `Plugins > RT Demo Importer > Install Demo Contents`.
 
-<img alt="" src="{{ 'assets/images/koncreate_theme/importing-demo-content/idc.1.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncrete_theme/importing-demo-content/idc.1.jpg' | relative_url }}">
 
 In this page, Click on the **Install** button for installing the demo.
 
-<img alt="" src="{{ 'assets/images/koncreate_theme/importing-demo-content/idc.2.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncrete_theme/importing-demo-content/idc.2.jpg' | relative_url }}">
 
 It will take some time for importing the demo contents. *Please note: Some images are replaced with a placeholder image because of licensing.*
 
 After importing demo data, please update your permalink. To update permalink, navigate to `Settings > Permalink` and then click on`Save Settings` button.
 
-<img alt="" src="{{ 'assets/images/koncreate_theme/importing-demo-content/idc.3.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncrete_theme/importing-demo-content/idc.3.jpg' | relative_url }}">
 
 If you face any issue, check the Troubleshooting section from <a href="#t-demo">here</a>.
 

@@ -14,22 +14,22 @@ If you don't want to go through all the troubles to check their documentation an
 
 _Step 1:_** Navigate to `Contact`, and then click on `Contact form 1` link.
 
-<img alt="contact form 7" src="{{ 'assets/images/koncreate_theme/advance/contact-form-1.jpg' | relative_url }}">
+<img alt="contact form 7" src="{{ 'assets/images/koncrete_theme/advance/contact-form-1.jpg' | relative_url }}">
 
 _Step 2:_** From this page, click on `Mail` tab. Here you should set your own email address where you want to receive user submitted forms. Then click on save button.
 
-<img alt="" src="{{ 'assets/images/koncreate_theme/advance/contact-form-2.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncrete_theme/advance/contact-form-2.jpg' | relative_url }}">
 
 _Step 3:_**   Please submit some dummy forms from Contact page to make sure that it's working properly.
 
 
 ### 19.2| Translating Theme
 
-You can translate this theme to another language easily. You actually have to translate two things for your website to work properly: `Koncreate` theme and `Koncreate Core` plugin. This plugin plays a major role in theme functionality, so if you don't translate this plugin along with the theme you can't be able to get the full translation.
+You can translate this theme to another language easily. You actually have to translate two things for your website to work properly: `Koncrete` theme and `Koncrete Core` plugin. This plugin plays a major role in theme functionality, so if you don't translate this plugin along with the theme you can't be able to get the full translation.
 
 There are many tools available for translation. But the easiest way is to use plugin `Loco Translate`. Using this plugin, you can literally translate any WordPress themes or plugins if it supports translation.
 
-_Note: Please remember, if you update the theme later your translations might be gone if they are stored inside theme/plugin. So please keep a backup of **Koncreate** theme and **Koncreate Core** plugin first before updating theme._
+_Note: Please remember, if you update the theme later your translations might be gone if they are stored inside theme/plugin. So please keep a backup of **Koncrete** theme and **Koncrete Core** plugin first before updating theme._
 {: .text-danger}
 
 
@@ -60,9 +60,9 @@ Here's a quick video tutorial explaining this method:
 #### Method 2: By Uploading zip File
 1. From WordPress Admin Panel, Navigate to `Appearance > Themes`.
 1. Activate any other theme (eg. Twenty Seventeen) than the current one.
-1. Delete `Koncreate` Theme.
+1. Delete `Koncrete` Theme.
 1. Now you have to upload the updated theme zip file. To do this, Navigate to `Appearance > Themes > Add New > Upload`. Go to browse, and select the zipped theme folder. Hit "Install Now" and the theme will be uploaded and installed.
 
 #### Method 3: By FTP
-1. Using your FTP client, navigate to `/wp-content/themes/` folder on your server and delete the `Koncreate` folder from there.
+1. Using your FTP client, navigate to `/wp-content/themes/` folder on your server and delete the `Koncrete` folder from there.
 1. Now upload the latest non-zipped theme folder into that `/wp-content/themes/` folder .

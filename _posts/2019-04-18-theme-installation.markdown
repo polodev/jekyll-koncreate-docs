@@ -14,7 +14,7 @@ Once the theme is uploaded, you need to activate it. Go to `Appearance > Themes`
 
 After that you need to install and activate the following pre-packaged plugins:
 
-* **Koncreate Core:** Required and must install plugin.
+* **Koncrete Core:** Required and must install plugin.
 * **RT Framework:** Required and must install plugin.
 * **Redux Framework:** Required and must install plugin.
 * **RT Demo Importer:** Required if you want to import demo contents. You can deactivate it after demo is imported.
@@ -25,6 +25,6 @@ After that you need to install and activate the following pre-packaged plugins:
 
 To install these plugins, navigate to `Appearance -> Install Plugins` and start installation.
 
-<img alt="" src="{{ 'assets/images/koncreate_theme/theme-installation/ti.jpg' | relative_url }}">
+<img alt="" src="{{ 'assets/images/koncrete_theme/theme-installation/ti.jpg' | relative_url }}">
 
 
