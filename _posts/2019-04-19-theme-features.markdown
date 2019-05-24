@@ -27,7 +27,32 @@ You need to  choose   2 type of logo. One for normal layout(main logo) and anoth
 
 After changing the settings, Click on `Save Changes` button.
 
-### 4.3| Preloader
+
+### 4.3| Favicon
+
+Favicon is the little icon which you see at the address bar of your browser.   
+
+<img alt="" src="{{ 'assets/images/koncrete_theme/theme-features/what-is-favicon.jpg' | relative_url }}">     
+
+
+To set this, from Admin menu navigate to `Appearance -> Customize` link.    
+
+<img alt="" src="{{ 'assets/images/koncrete_theme/theme-features/customize-click.jpg' | relative_url }}">     
+
+
+Then navigate to `Site Identity`
+
+<img alt="" src="{{ 'assets/images/koncrete_theme/theme-features/site-identity-click.jpg' | relative_url }}">     
+
+
+From there you can upload the "Site Icon" which will be used as favicon
+
+<img alt="" src="{{ 'assets/images/koncrete_theme/theme-features/change-favicon.jpg' | relative_url }}">     
+
+For more details, here's the WordPress official instruction link for setting up favicon: [https://wordpress.org/support/article/creating-a-favicon/](https://wordpress.org/support/article/creating-a-favicon/)
+
+<!-- for here image position will be negetive 1 -->
+### 4.4| Preloader
 
 From Admin menu, navigate to `Appearance > Theme Options`. Then go to `General` tab
 
@@ -37,7 +62,7 @@ Here you can find the option for enabling/disabling "Preloader" option. Also you
 
 After changing the settings, Click on `Save Changes` button.
 
-### 4.4| Back to Top Arrow
+### 4.5| Back to Top Arrow
 
 From Admin menu, navigate to `Appearance > Theme Options`. Then go to `General` tab
 
@@ -47,7 +72,7 @@ Here you can find the option for enabling/disabling "Back to Top Arrow" option. 
 
 After changing the settings, Click on `Save Changes` button.
 
-### 4.5| Header and Top Bar
+### 4.6| Header and Top Bar
 
 To change the Header related settings, please go to `Appearance > Theme Options`. Then go to `Header` tab. Following features are available:
 
@@ -58,7 +83,7 @@ To change the Header related settings, please go to `Appearance > Theme Options`
 
 After changing the settings, Click on `Save Changes` button.
 
-### 4.6| Menu
+### 4.7| Menu
 
 You can customize menu typography (font related settings) and color from theme options.
 To customize menu typography navigate to `Appearance > Theme Options`. Then go to `Typography` tab.
@@ -76,7 +101,7 @@ To change screen width for responsive menu navigate to `Appearance > Theme Optio
 
 After changing the settings, Click on `Save Changes` button.
 
-### 4.7| Multi Column Menu
+### 4.8| Multi Column Menu
 
 Multi column menu looks like this:
 
@@ -90,7 +115,7 @@ NB: If you can't see the field `CSS Classes`, you have to enable it first. To do
 
 <img alt="" src="{{ 'assets/images/koncrete_theme/theme-features/tf.7.2.jpg' | relative_url }}">
 
-### 4.8| Footer
+### 4.9| Footer
 You can change footer copyright text and toggle copyright option from footer settings. To change footer copyright info
 navigate to `Appearance > Theme Options`. Then go to `Footer` tab.
 
@@ -108,7 +133,7 @@ To set up footer widgets, navigate to `Appearance > Widgets`. Here you can find 
 
 <img alt="koncrete theme footer widget" src="{{ 'assets/images/koncrete_theme/theme-features/tf.8.3.jpg' | relative_url }}">
 
-### 4.9| Typography
+### 4.10| Typography
 
 You can change the typography of Body and Headers. To do this, go to `Appearance > Theme Options`. Then go to `Typography` tab.
 
@@ -116,7 +141,7 @@ You can change the typography of Body and Headers. To do this, go to `Appearance
 
 After changing the Typography settings, Click on `Save Changes` button.
 
-### 4.10| Contact & Socials
+### 4.11| Contact & Socials
 
 You can set up your contact and social info which are displayed in Top Bar and Footer. To do this, navigate to `Appearance -> Theme Options`. Then go to Contact & Socials tab.
 
@@ -124,7 +149,7 @@ You can set up your contact and social info which are displayed in Top Bar and F
 
 After changing the settings, Click on Save Changes button.
 
-### 4.11| Custom Sidebar
+### 4.12| Custom Sidebar
 You can create as many as Custom Sidebar as you want. Also you can replace the Default Sidebar with your Custom Sidebar easily in any page. To create a new custom sidebar, navigate to `Appearance -> Widgets`. Here you'll see the option for creating new sidebar.
 
 <img alt="" src="{{ 'assets/images/koncrete_theme/theme-features/tf.11.jpg' | relative_url }}">
