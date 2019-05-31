@@ -83,3 +83,11 @@ First open the file `options.json` in any text editor and copy the whole content
 
 
 <p> <img alt="" src="{{ 'assets/images/koncrete_theme/importing-demo-content/manual-demo-options.jpg' | relative_url }}"> </p>   
+
+### 3.3 | Change Primary Menu
+
+After the demo installation, some times the top menu doesn't set as primary menu automatically. In this case, you need to set `top menu` as your primary menu.    
+
+To do that, Navigate to `Appearance > Menus`. Choose `top menu` from `Select a menu to edit`. Then from `Menu Settings > Display location` set to `primary`
+
+<p> <img alt="" src="{{ 'assets/images/koncrete_theme/importing-demo-content/primary-menu-selection.jpg' | relative_url }}"> </p>   
