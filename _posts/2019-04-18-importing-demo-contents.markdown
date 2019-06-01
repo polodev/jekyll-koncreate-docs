@@ -58,7 +58,7 @@ From Admin menu, navigate to `Tools > Import.` From there select the `WordPress`
 
 ---
 
-You can import widgets using plugin `Widget Importer & Exporter`. After installing this plugin, navigate to `Tools > Widget Importer & Exporter`. In the next step when file uploading option appears, select the `widgets.wie` file from `sample-data` and start importing.
+You can import widgets using plugin [`Widget Importer & Exporter`](https://wordpress.org/plugins/widget-importer-exporter/). After installing this plugin, navigate to `Tools > Widget Importer & Exporter`. In the next step when file uploading option appears, select the `widgets.wie` file from `sample-data` and start importing.
 
 <p> <img alt="" src="{{ 'assets/images/koncrete_theme/importing-demo-content/manual-demo-widget.jpg' | relative_url }}"> </p>   
 
